@@ -1,0 +1,93 @@
+@import url("https://fonts.googleleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;    
+}
+:root{
+    
+}
+body{
+    background-color: aliceblue;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar{
+    position: absolute;
+    width: 100%;  
+    z-index: 1;
+    display: flex;
+    
+}
+.content-nav{
+    background-color: rgb(126, 218, 255);
+    margin: 30px 10% 0 10%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #0000;
+    border-radius: 20px;
+}
+.content-nav img{
+    height: 80px;
+    width: 230px;
+    cursor: pointer;
+}
+.content-nav nav{
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+    font-size: 20px;
+    align-items: center;
+}
+.content-nav a{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: .3s;
+}
+.content-nav a:hover{
+    color: transparent;
+    background-clip: text;
+    background-image: radial-gradient(circle,rgba(255, 38, 0, 1) 0%, rgba(237, 229, 83, 1) 100%);
+}
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #ffffff 2px solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all .5s ease;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background: #ff2600;
+    background: radial-gradient(circle,rgba(255, 38, 0, 1) 0%, rgba(237, 229, 83, 1) 100%);
+    border: 2px solid #ffc800;
+}
+  
+  .button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em;
+    font-weight: 600;
+  }
